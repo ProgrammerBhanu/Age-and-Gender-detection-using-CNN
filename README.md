@@ -31,7 +31,7 @@
   <li>gender_deploy.prototxt</li>
   <li>gender_net.caffemodel</li>
   <li>a few pictures to try the project on</li>
-  <li>detect.py</li>
+  <li>gad.py</li>
  </ul>
  <p>For face detection, we have a .pb file- this is a protobuf file (protocol buffer); it holds the graph definition and the trained weights of the model. We can use this to run the trained model. And while a .pb file holds the protobuf in binary format, one with the .pbtxt extension holds it in text format. These are TensorFlow files. For age and gender, the .prototxt files describe the network configuration and the .caffemodel file defines the internal states of the parameters of the layers.</p>
  
@@ -41,13 +41,13 @@
   <li>Open your Command Prompt or Terminal and change directory to the folder where all the files are present.</li>
   <li><b>Detecting Gender and Age of face in Image</b> Use Command :</li>
   
-      python detect.py --image <image_name>
+      python gad.py --image <image_name>
 </ul>
   <p><b>Note: </b>The Image should be present in same folder where all the files are present</p> 
 <ul>
   <li><b>Detecting Gender and Age of face through webcam</b> Use Command :</li>
   
-      python detect.py
+      python gad.py
 </ul>
 <ul>
   <li>Press <b>Ctrl + C</b> to stop the program execution.</li>
@@ -59,31 +59,31 @@
 <h2>Examples :</h2>
 <p><b>NOTE:- I downloaded the images from Google,if you have any query or problem i can remove them, i just used it for Educational purpose.</b></p>
 
-    >python detect.py --image girl1.jpg
+    >python gad.py --image girl1.jpg
     Gender: Female
     Age: 25-32 years
     
 <img src="Example/Detecting age and gender girl1.png">
 
-    >python detect.py --image girl2.jpg
+    >python gad.py --image girl2.jpg
     Gender: Female
     Age: 8-12 years
     
 <img src="Example/Detecting age and gender girl2.png">
 
-    >python detect.py --image kid1.jpg
+    >python gad.py --image kid1.jpg
     Gender: Male
     Age: 4-6 years    
     
 <img src="Example/Detecting age and gender kid1.png">
 
-    >python detect.py --image kid2.jpg
+    >python gad.py --image kid2.jpg
     Gender: Female
     Age: 4-6 years  
     
 <img src="Example/Detecting age and gender kid2.png">
 
-    >python detect.py --image man1.jpg
+    >python gad.py --image man1.jpg
     Gender: Male
     Age: 38-43 years
     
