@@ -60,51 +60,29 @@
 <p><b>NOTE:- I downloaded the images from Google,if you have any query or problem i can remove them, i just used it for Educational purpose.</b></p>
 
     >python gad.py --image girl1.jpg
-    Gender: Female
+    Gender: Male
     Age: 25-32 years
     
-<img src="Example/Detecting age and gender girl1.png">
+<img src="https://github.com/ProgrammerBhanu/Age-and-Gender-detection-using-CNN/blob/master/girl1.jpg">
 
     >python gad.py --image girl2.jpg
     Gender: Female
-    Age: 8-12 years
-    
-<img src="Example/Detecting age and gender girl2.png">
-
-    >python gad.py --image kid1.jpg
-    Gender: Male
-    Age: 4-6 years    
-    
-<img src="Example/Detecting age and gender kid1.png">
-
-    >python gad.py --image kid2.jpg
-    Gender: Female
-    Age: 4-6 years  
-    
-<img src="Example/Detecting age and gender kid2.png">
-
-    >python gad.py --image man1.jpg
-    Gender: Male
-    Age: 38-43 years
-    
-<img src="Example/Detecting age and gender man1.png">
-
-    >python detect.py --image man2.jpg
-    Gender: Male
     Age: 25-32 years
     
-<img src="Example/Detecting age and gender man2.png">
+<img src="https://github.com/ProgrammerBhanu/Age-and-Gender-detection-using-CNN/blob/master/girl2.jpg">
 
-    >python detect.py --image woman1.jpg
-    Gender: Female
-    Age: 38-43 years
+
+    >python detect.py --image minon.jpg
+    Gender: --
+    Age: -----
     
-<img src="Example/Detecting age and gender woman1.png">
+<img src="https://github.com/ProgrammerBhanu/Age-and-Gender-detection-using-CNN/blob/master/minion.jpg">
+
     
 # Support :
 If you found this project helpful or you learned something from the source code and want to thank me, consider me to pay my internet bills. This would encourage me to create many such projects 👨🏻‍💻
 <ul>
-    <li><a href="https://www.paypal.me/smahesh29"><b>PayPal</b></a></li>
+   
     <li><a href="https://imjo.in/XNZDCJ"><b>₹ (INR)</b></a></li>
-    <li><b>UPI ID :</b> maheshusa29@oksbi</li>
+    <li><b>UPI ID :</b> 8755459561@ybl</li>
 </ul>           
