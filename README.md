@@ -1,4 +1,4 @@
-# Gender-and-Age-Detection   <img alt="GitHub" src="https://github.com/ProgrammerBhanu/Age-and-Gender-detection-using-CNN/new/master">
+# Age and Gender Detection using CNN  
 
 
 <h2>Objective :</h2>
@@ -82,7 +82,6 @@
 # Support :
 If you found this project helpful or you learned something from the source code and want to thank me, consider me to pay my internet bills. This would encourage me to create many such projects 👨🏻‍💻
 <ul>
-   
     <li><a href="https://imjo.in/XNZDCJ"><b>₹ (INR)</b></a></li>
     <li><b>UPI ID :</b> 8755459561@ybl</li>
 </ul>           
